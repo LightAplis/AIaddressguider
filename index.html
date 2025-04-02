@@ -1,0 +1,60 @@
+f<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>AI address guider</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #ffffff 0%, #00ffff 100%);
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #00eeff;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .link-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .ai-link {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #00aaff;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: 2px solid #00eeff;
+        }
+
+        .ai-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            background-color: #ffffff;
+            color: #00eeff;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI address guider</h1>
+    
+    <div class="link-container">
+        <a href="https://www.deepseek.com" class="ai-link" target="_blank">DeepSeek</a>
+        <a href="https://openai.com" class="ai-link" target="_blank">ChatGPT</a>
+        <a href="https://grok.com" class="ai-link" target="_blank">Grok</a>
+    </div>
+</body>
+</html>
